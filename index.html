@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,53 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="">
-   <main class="w-full h-full">
-    
-   </main> 
+
+<body class="bg-gradient-to-br from-gray-800 to-black">
+    <main
+        class="w-full h-screen flex justify-center items-center bg-[url('https://i.pinimg.com/1200x/f1/93/a4/f193a49cce0fdb02efa4b3f4d6b454ff.jpg')] bg-center bg-no-repeat bg-cover ">
+        <div class="min-w-[300px] w-[400px] h-[70%] bg-[black]/50 rounded-[25px] p-2 overflow-hidden">
+            <form id="form">
+                <div class="w-full h-[14vh] border-2 rounded-[16px] overflow-hidden ">
+                    <input id="screen" type="text" inputmode="decimal" pattern="[0-9.]*" placeholder="0"
+                        class="caret-transparent bg-zinc-900/20 w-full text-white text-[3rem] h-full text-end px-4 outline-none">
+                </div>
+                <div>
+                    <section class="relative w-full h-[48vh]">
+                        <div class="btnContainer flex flex-col justify-center items-center gap-8 pt-4">
+                            <div class="btnDiv grid grid-cols-1 w-full gap-4">
+                                <p class="btn ">Clear All</p>
+                            </div>
+                            <div class="btnDiv grid grid-cols-4 w-full gap-4">
+                                <p class="btn ">1</p>
+                                <p class="btn ">2</p>
+                                <p class="btn ">3</p>
+                                <p class="btn ">/</p>
+                            </div>
+                            <div class="btnDiv grid grid-cols-4 w-full gap-4">
+                                <p class="btn ">4</p>
+                                <p class="btn ">5</p>
+                                <p class="btn ">6</p>
+                                <p class="btn ">*</p>
+                            </div>
+                            <div class="btnDiv grid grid-cols-4 w-full gap-4">
+                                <p class="btn ">7</p>
+                                <p class="btn ">8</p>
+                                <p class="btn ">9</p>
+                                <p class="btn ">-</p>
+                            </div>
+                            <div class="btnDiv grid grid-cols-4 w-full gap-4">
+                                <p class="btn ">0</p>
+                                <p class="btn ">.</p>
+                                <p class="btn ">=</p>
+                                <p class="btn ">+</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </form>
+        </div>
+    </main>
     <script src="script.js"></script>
 </body>
-</html> 
+
+</html>
