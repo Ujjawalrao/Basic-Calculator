@@ -20,5 +20,9 @@ The application performs basic arithmetic operations with strong input validatio
 - CSS3  
 - Tailwind.css
 - JavaScript (Vanilla JS)
- clear
+
+👨‍💻 Author
+
+Ujjawal
+Frontend Developer
 
