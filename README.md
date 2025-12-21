@@ -1,5 +1,7 @@
 # 🧮 Calculator Application
 
+Url - basic-calculator-ruby-three.vercel.app
+
 A simple and error-proof calculator built using **HTML, CSS, and JavaScript**.  
 The application performs basic arithmetic operations with strong input validation to prevent invalid expressions.
 
